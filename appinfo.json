@@ -1,0 +1,17 @@
+/*
+ * Copyright 2012 fxspec06 (Bryan Leasot)
+ * Not for distribution
+ * 
+ */
+{
+	"id": "com.fxspec.plntr",
+	"version": "0.0.1",
+	"vendor": "fxspec06",
+	"type": "web",
+	"main": "plntr.htm",
+	"title": "plntr",
+	"icon": "plntr.png",
+	"splashIcon": "plntr.png",
+	"uiRevision": "2",
+	"noWindow":false
+}

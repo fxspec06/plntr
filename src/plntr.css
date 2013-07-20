@@ -1,0 +1,64 @@
+/*
+ * Copyright 2012 fxspec06 (Bryan Leasot)
+ * Not for distribution
+ * 
+ */
+.selected {
+	background-color: forestgreen !important;
+	height: 95px !important;
+	-webkit-border-radius: 15px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+.slider {
+	background-color: black;
+	-webkit-border-radius: 15px;
+	height: 100%;
+	box-shadow: -6px 0px 6px rgba(0,0,0,0.3);
+}
+.creator {
+	background-color: #CCC;
+	height: 100%;
+	box-shadow: -6px 0px 6px rgba(0,0,0,0.3);
+}
+.no2 {
+	padding: 15px !important;
+	background-color: #CCC !important;
+	color: black !important;
+}
+.menu {
+	margin-top: 15px;
+	width: 200px;
+}
+.garden {
+	background-color: black;
+	height: 95px !important;
+	-webkit-border-radius: 15px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+	margin: 15px;
+}
+.pullout-grabbutton {
+	position: absolute;
+	height: 54px;
+	width: 50px;
+	top: 0;
+	right: -46px;
+	border-radius: 0 10px 10px 0;
+	background-color: #D8D8D8;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+}
+.pullout {
+	background-color: #D8D8D8;
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
+	border-radius: 0 0 10px 0;
+}
+.pullout-controls > * {
+	margin: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: block;
+}
+.fitting-color {
+	background: #B7BFC4;
+}

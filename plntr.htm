@@ -1,0 +1,32 @@
+<!--
+   - Copyright 2012 fxspec06 (Bryan Leasot)
+   - Not for distribution
+   -
+   -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>plntr</title>
+		<meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel=stylesheet href="enyo/2.0/enyo-2.0b4/enyo.css">
+		<script src="enyo/2.0/enyo/enyo.js" type="text/javascript"></script>
+		<script src="enyo/2.0/lib/layout/package.js" type="text/javascript"></script>
+		<script src="enyo/2.0/lib/onyx/package.js" type="text/javascript"></script>
+		<script src="enyo/2.0/lib/layout/fittable/package.js" type="text/javascript"></script>
+		<script src="package.js"></script><style>
+	</style>
+	</head>
+	<body onload="domcontentloaded()" class="onyx">
+	<script type="text/javascript">
+		var domcontentloaded = function(){
+			if(window.PalmSystem){
+				window.PalmSystem.stageReady();
+			}
+			
+			//({fit: true, classes: "enyo-unselectable"}).write();
+			_plntr = new plntr().renderInto(document.body);
+			_plntr.$["plntr.Yard"].refresh();
+		}
+	</script>
+	</body>
+</html>
